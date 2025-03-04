@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+client/node_modules
+server/node_modules
+
+# Build files
+client/build
+client/.next
+server/dist
+
+# Environment files
+client/.env
+server/.env
+.env
+
+# Cache and temporary files
+client/.cache
+server/.cache
+client/.turbo
+server/.turbo
+client/.eslintcache
+server/.eslintcache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Git-specific files
+*.orig
+*.lock
+
+# Tests coverage reports
+client/coverage
+server/coverage
+coverage/
+
+# TypeScript files
+*.tsbuildinfo
+
+# Yarn / PNPM files
+.yarn/
+.pnp.*
+.pnpm-debug.log
+
+
+
+# Misc
+*.log
+*.gz
